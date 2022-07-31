@@ -1,0 +1,419 @@
+<html>
+<head>
+
+<link rel="stylesheet" >
+<style>
+.box {
+  box-shadow: 9px 8px 10px -1px rgba(68,55,63,1) inset;
+-webkit-box-shadow: 9px 8px 10px -1px rgba(68,55,63,1) inset;
+-moz-box-shadow: 9px 8px 10px -1px rgba(68,55,63,1) inset;
+  float: left;
+  width: 50%;
+  padding: 0px;
+  height: 380px;
+}
+* {
+  box-sizing: border-box;
+}
+.box1 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 380px;
+  background-color:white;
+  box-shadow: 9px 8px 10px -1px rgba(68,55,63,1) inset;
+-webkit-box-shadow: 9px 8px 10px -1px rgba(68,55,63,1) inset;
+-moz-box-shadow: 9px 8px 10px -1px rgba(68,55,63,1) inset;
+}
+* {
+  box1-sizing: border-box;
+}
+.box2 {
+  float: left;
+  width: 100%;
+  padding: 0px;
+  height: 260px;
+
+  font-size:100%;
+}
+* {
+  box2-sizing: border-box;
+}
+.box3{
+  float: left;
+  width: 100%;
+  padding: 0px;
+  height: 580px;
+  font-size:100%;
+  background: #d8d891;
+background: linear-gradient(90deg,#d8d891 0%, #df97e0 10%, #ffffcc 80%);
+background: -webkit-linear-gradient(90deg,#d8d891 0%, #df97e0 10%, #ffffcc 80%);
+background: -moz-linear-gradient(90deg,#d8d891 0%, #df97e0 10%, #ffffcc 80%);
+ 
+  
+}
+* {
+  box2-sizing: border-box;
+}
+.b1{
+background: #ff0000;
+background: linear-gradient(111deg,#ff0000 0%, #00ff00 80%);
+background: -webkit-linear-gradient(111deg,#ff0000 0%, #00ff00 80%);
+background: -moz-linear-gradient(111deg,#ff0000 0%, #00ff00 80%);
+
+}
+
+.b2{
+background: #ff0043;
+background: linear-gradient(62deg,#ff0043 20%, #001aff 150%, #ff00a2 40%);
+background: -webkit-linear-gradient(62deg,#ff0043 20%, #001aff 150%, #ff00a2 40%);
+background: -moz-linear-gradient(62deg,#ff0043 20%, #001aff 150%, #ff00a2 40%);
+}
+
+.navbar {
+  
+  font-family: Arial Black, Helvetica, sans-serif;
+  position:fixed;
+  width:100%;
+  top:0;
+}
+
+.navbar a {
+  float: right;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 18px 50px;
+  text-decoration: none;
+  
+  
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+  
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20px 22px;
+  background-color: inherit;
+  font-family: Arial Black;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #cc0066;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: White;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.social-icons {
+  text-align: left;
+  }  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:60px;
+  height:60px;
+  margin-right: 20px;
+}
+.d1{
+
+box-shadow: 4px 2px 17px -1px rgba(28,28,19,1) inset;
+-webkit-box-shadow: 4px 2px 17px -1px rgba(28,28,19,1) inset;
+-moz-box-shadow: 4px 2px 17px -1px rgba(28,28,19,1) inset;
+background-color: #ffcccc;
+  width: 100%;
+  padding: 10px;
+  border: 0px solid #e6005c ;
+  margin: 0px;
+  height:100px;
+}
+.boxmodel {
+box-shadow: 9px 8px 10px -1px rgba(224,112,181,0.63);
+-webkit-box-shadow: 9px 8px 10px -1px rgba(224,112,181,0.63);
+-moz-box-shadow: 9px 8px 10px -1px rgba(224,112,181,0.63);
+ background: #d8d891;
+background: linear-gradient(90deg,#d8d891 0%, #df97e0 10%, #ffffcc 80%);
+background: -webkit-linear-gradient(90deg,#d8d891 0%, #df97e0 10%, #ffffcc 80%);
+background: -moz-linear-gradient(90deg,#d8d891 0%, #df97e0 10%, #ffffcc 80%);
+  width: 100%;
+  padding: 25px;
+  border: 0px solid #e6005c ;
+  margin: 0px;
+  height:390px;
+}
+.boxmodel2 {
+
+  box-shadow: 4px 2px 17px -1px rgba(28,28,19,1) inset;
+-webkit-box-shadow: 4px 2px 17px -1px rgba(28,28,19,1) inset;
+-moz-box-shadow: 4px 2px 17px -1px rgba(28,28,19,1) inset;
+  background: #d8d891;
+background: linear-gradient(90deg,#d8d891 0%, #e0e097 10%, #ffffcc 80%);
+background: -webkit-linear-gradient(90deg,#d8d891 0%, #e0e097 10%, #ffffcc 80%);
+background: -moz-linear-gradient(90deg,#d8d891 0%, #e0e097 10%, #ffffcc 80%);
+  width: 100%;
+  padding: 25px;
+  margin: 0px;
+  height:400px;
+}
+.boxmodel3 {
+  width: 100%;
+  padding: 0px;
+  border: 10px solid #009933;
+  margin: 0px;
+  height:400px;
+}
+.boxmodel4 {
+  width: 100%;
+  padding: 0px;
+  border: 2px solid #000000;
+  margin: 0px;
+  height:60px;
+  background-color: white;
+  box-shadow: 2px 2px 22px -1px rgba(89,89,79,1) inset;
+-webkit-box-shadow: 2px 2px 22px -1px rgba(89,89,79,1) inset;
+-moz-box-shadow: 2px 2px 22px -1px rgba(89,89,79,1) inset;
+}
+div.a {
+  white-space: nowrap; 
+  width: 200px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #000000;
+}
+
+div.a:hover {
+  overflow: visible;
+}
+div.polaroid {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js" >
+</script>
+</head>
+<body onload="myFunction()">
+
+<div class="navbar" >
+<div class="b2">
+  <img src="D://91905/mypack/11.jpg" width="150px"  height="85px">
+  <a href="#tag6">Contact Us</a>
+  <a href ="wt10sub2.html">Click Here</a>
+  <a href="#tag5">Party Ideas</a>
+  <a href="#tag4">Themes</a>
+  <div class="dropdown">
+    <button class="dropbtn">Services
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="wt10sub.html">Balloon Decoration </a>
+      <a href="wt10sub.html#tag1">Fun Activity</a>
+      <a href="wt10sub.html#tag2">Cakes</a>
+	  <a href="wt10sub.html#tag3">Stage Artist</a>
+    </div>
+  </div> 
+  <a href="#tag">About us </a>
+  <a href="#tag7">Home</a>
+</div>
+</div>
+<br id="tag7"><br><br><br>
+<div class="box" >
+<div class="boxmodel">
+
+<center><h2 style="text-shadow: 5px 13px 50px rgba(0,0,0,0.7)">THEME PARTY PLANNERS</h2>
+<h3 style="color:#cc0066">
+<p style="font-family:Garamond">
+<br>
+Birthday Party Organisers for every budget, for children of every age with a guarantee that not as single moment would be dull.
+ We will be your partners in your child's birthday events making it an extraordinary event that would impress one and all. 
+ Being tech-savvy, we have an acute eye for looking up for the latest developments in the world and infuse them into your parties
+ to make it an avant-garde event. Birthday parties have a special importance in each child's life and we promise to make your child's
+ birthday party distinctive and unforgettable.</p></h3></center>
+ </div>
+ </div>
+ <div class="box">
+ <img src="D://91905/mypack/115.jpg" height="390px" width="100%">
+
+ </div>
+ <img src="D://91905/mypack/119.jpg" height="380px" width="100%">
+ </div>
+ 
+<div class="box">
+<img src="D://91905/mypack/142.gif" height="390px" width="100%">
+ 
+ </div>
+ 
+ <div class="box" id="tag">
+<div class="boxmodel">
+<center><h2 style="text-shadow: 5px 13px 50px rgba(0,0,0,0.7)">Birthday Party Organizers</h2>
+<h3 style="color:#cc0066">
+<p style="font-family:Garamond">
+Birthday Bumps - Lets Celebrate!
+Are you looking to celebrate your child’s birthday with loads of fun filled with memories? Yet being short of time not able to organize 
+it in a rock-star way? Since your child’s birthday comes only once a year, it deserves all the pomp and merriment to make it an 
+unforgettable day.
+Welcome to Birthday Bumps, a professional birthday party planner that specializes in planning, organizing and managing birthday parties.
+ Started by a group of dynamic and experienced event professionals, their aim is to organize outstanding birthday parties that every 
+ child would enjoy to the fullest.<br>
+</p></h3></center>
+</div>
+ </div>
+ <hr color="red">
+ <div class="boxmodel2">
+ <br><h3 style="color:#cc0066">
+ <p style="font-family:Garamond">Each birthday party is a hub of innovative, productive and enjoyable activities that deliver a striking experience to all the guests.
+ Birthday Bumps is a dependable partner for directing your birthday event, with every aspect being planned well in advance and delivered
+ with utmost perfection to make your child’s birthday an evergreen moment. Equal attention is given to every aspect, right from the
+ decorations, entertainment to the food management. Our services include – finding the party venue, helping you select the party theme,
+ venue decoration in-lieu with the theme, crafting attention-grabbing invitation cards, menu planning, organizing entertainment activities
+ to name a few – you are left with no burden except enjoy the party.
+<br><br id="tag4">
+We believe that a birthday party is much more than a mill routine, each party has to have a unique element that each kid enjoys and
+remembers for a long time. With Birthday Bumps, we provide a plethora of activities for your boy and girl, and they are customized based 
+on your needs.
+<h3 style="font-family:Garamond" onclick="changeText(this)"><p style="font-family:Garamond">Click on this text for more information!</p></h3>
+</p></h3>
+</p></h3></div>
+<br>
+ <div class="d1">
+<marquee behavior="scroll" direction="Up" scrollamount="10" bgcolor="#ffffcc">
+ <center><h1 style="text-shadow: 5px 13px 50px rgba(1,0,0,1)" >&#9733;Birthday Themes</h1></marquee></div>
+ <hr color="red">
+ <div class="box1">
+ <img src="D://91905/mypack/134.jpg" height="380px" width="90%">
+ </div>
+ <div class="box1">
+ <img src="D://91905/mypack/135.jpg" height="400px" width="90%">
+ </div>
+ <div class="box1">
+ <img src="D://91905/mypack/136.jpg" height="380px" width="90%">
+ </div>
+ 
+ <div class="box3">
+ 
+ <center><h1 id="tag5" style="text-shadow: 5px 13px 50px rgba(1,0,0,1)">Birthday Party Ideas</h1></center>
+ <h3 style="font-family:Garamond"  id="tag5"> <div class="boxmodel4">&#9734;
+ Birthday Bumps will take care of your little one’s birthday party. We’re your party planners, while we fret around with making your
+ child's birthday a mega event, there are just a few things that we need from your side. To make the party stay in everyone’s heart
+ for a long time, here is how we would plan it out:
+<br></div>
+<br><div class="boxmodel4"> &#9733;
+Six weeks before the party - To get the entire venue decorated as per the birthday theme needs some pre-planning. So six weeks prior
+ to the party, we sit with the parents and children and help them decide the theme. At this time we finalize the party venue based on 
+ the theme and number of guests you will be inviting.</div>
+<br><div class="boxmodel4"> &#9734;
+Four weeks prior to the party - These days birthday party invitation cards are an exquisite set of creativity. Handmade, or made by the 
+best craft artists based on the party theme we'll have them done. Based on the theme, guest age and the birthday child's favorite games,
+ we’ll chart out the whole activity schedule. </div>
+<br><div class="boxmodel4"> &#9733;
+Three weeks to go for the party - Although invitations have been sent to all parents almost a week ago, in case if the child loses the
+ card, it is better to mail them informing about the party. For the tiny tots, we do provide extra help on request.</div>
+<br><div class="boxmodel4"> 
+<div class="a"> &#9734;
+One & Two weeks before the party From the period of 14 days until the birthday party, we are constantly in contact with the parents.</div>
+ The flow of the party is decided, guests who haven’t confirmed are called again. </div>
+ </h3>
+<h2 style="color:green"><div onmousedown="mDown(this)" onmouseup="mUp(this)"
+style="background-color:#ffcccc;width:100%;height:15px;padding:40px; ">
+Click Me
+</div></h2>
+</div>
+ </div>
+ 
+<div class="b1" >
+
+<center id="tag6"><h2 style ="color:white"  style="text-shadow: 2px 2px 4px #000000">CONTACT US:</center>
+<font  size="5" face="Arial">
+<table style="color:white" width="100%" cellspacing="12">
+<tr>
+<td>E-MAIL: </td>
+<td>&nbsp;&nbsp;&nbsp;abc@birthday.organization.come</td>
+</tr>
+<tr>
+<td>MO: </td>
+<td>&nbsp;&nbsp;&nbsp;9x549xxx4</td>
+
+<tr>
+<td>ADDRESS: </td>
+<td>&nbsp;&nbsp;&nbsp;25-B,Royal tower,andheri East,Mumbai-495007-MH</td>
+</tr>
+<tr>
+<td><h2>for further queries visit: </h2></td>
+<td>
+<div class="social-icons">
+    <li><a href="http://www.facebook.com"><img src='D://91905/mypack/137.jpg' /></a></li>
+    <li><a href="http://www.twitter.com"><img src='D://91905/mypack/140.jpg' /></a></li>
+    <li><a href="http://www.youtube.com"><img src='D://91905/mypack/139.jpg' /></a></li>
+	<li><a href="http://www.instagram.com"><img src='D://91905/mypack/138.jpg' /></a></li>
+</ul>
+</td>
+</tr>
+
+</table>
+
+</font>
+</div>
+</div>
+
+
+<script>
+function myFunction() {
+  alert("Page is loaded");
+}
+function mDown(obj) {
+  obj.style.backgroundColor = "#1ec5e5";
+  obj.innerHTML = "Release Me";
+}
+
+function mUp(obj) {
+  obj.style.backgroundColor="#ffcccc";
+  obj.innerHTML="Thank You For Visiting Site....";
+}
+function changeText(id) {
+  id.innerHTML = "These activities include – balloon decoration and providing customized balloons, paintings on face, pottery, clay art, hair braiding and coloring, birthday props such as castles, slides and hoopla rings, stage artists and hosts, puppet shows, eatables, media including videographers, photographers and prop booths, customized cakes to delight every heart and fancy freebies such as T-shirts, caps and eye-masks to name a few";
+}
+
+	
+	
+</script>
+</body>
+</html>
